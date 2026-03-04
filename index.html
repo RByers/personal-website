@@ -1,12 +1,90 @@
-<html>
-    <head><title>Rick Byers - Personal Website</title></head>
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rick Byers - Principal Engineer, Google</title>
+        <style>
+            body {
+                font-family: 'Segoe UI', 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                margin: 0;
+                padding: 40px 20px;
+                background-color: #f4f4f4;
+                color: #333;
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                min-height: 100vh;
+            }
+            .container {
+                background-color: #fff;
+                padding: 30px 40px;
+                border-radius: 8px;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+                max-width: 800px;
+                width: 100%;
+                text-align: left;
+            }
+            h1 {
+                color: #222;
+                font-size: 2em;
+                margin-bottom: 0.25em;
+            }
+            .title {
+                color: #555;
+                font-size: 1.2em;
+                margin-bottom: 0.5em;
+            }
+            .location {
+                color: #777;
+                font-size: 1em;
+                margin-bottom: 2em;
+            }
+            .about h2, .social h2 {
+                border-bottom: 1px solid #eee;
+                padding-bottom: 0.5em;
+                margin-bottom: 1em;
+                font-size: 1.5em;
+                color: #333;
+            }
+            .about p {
+                line-height: 1.6;
+                margin-bottom: 1em;
+            }
+            .social a {
+                display: inline-block;
+                background-color: #0077b5; /* LinkedIn blue */
+                color: white;
+                padding: 10px 15px;
+                text-decoration: none;
+                border-radius: 5px;
+                font-weight: bold;
+                transition: background-color 0.3s ease;
+            }
+            .social a:hover {
+                background-color: #005582;
+            }
+        </style>
+    </head>
     <body>
-      <h1>Rick Byers</h1>
-      <h2>Principal Engineer and Area Tech Lead on Chrome at Google</h2>
-      <p><strong>Location:</strong> Waterloo, Ontario, Canada</p>
-      <h3>About Me</h3>
-      <p>My mission at Google is to make the web lower friction for users, less frustrating for developers and more open for society. I am one of the overall technical leads of Google Chrome and the Chromium open source project. I am also working on advancing web APIs for identity and payments with a goal of making the web safer for users and more profitable for ethical app developers.</p>
-      <h3>Social Links</h3>
-      <p><a href="https://www.linkedin.com/in/rick-byers/">LinkedIn Profile</a></p>
+        <div class="container">
+            <h1>Rick Byers</h1>
+            <p class="title">Principal Engineer and Area Tech Lead on Chrome at Google</p>
+            <p class="location">Waterloo, Ontario, Canada</p>
+            
+            <div class="about">
+                <h2>About</h2>
+                <p>My mission at Google is to make the web lower friction for users, less frustrating for developers and more open for society. I am one of the overall technical leads of Google Chrome and the Chromium open source project. I am also working on advancing web APIs for identity and payments with a goal of making the web safer for users and more profitable for all web-based businesses.</p>
+                <p>Efforts I've designed and helped to lead include making the whole web faster (and more profitable) with the Core Web Vitals project, and making the web behave more consistently across browsers (WPT/interop). Follow me on BlueSky as @rbyers.net and on X as @RickByers.</p>
+                <p>I am also on the Google Waterloo site leadership team. I'm always on the lookout for exceptional technical leaders who are driven for positive global impact while making Canada their home.</p>
+                <p>In my free time I am a molecular biology hobbyist and enjoy learning about the cold viruses flowing through my house from my basement PCR/sequencing lab.</p>
+            </div>
+    
+            <div class="social">
+                <h2>Social Links</h2>
+                <a href="https://www.linkedin.com/in/rick-byers/" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
+            </div>
+        </div>
     </body>
     </html>
+    
